@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+  <title>Document</title>
+  <style>
+    html {
+      font-family: 'Inter', sans-serif;
+      box-sizing: border-box;
+      width: fit-content;
+    }
+
+    */
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav class="bg-white">
+      <ul class="flex justify-evenly font-semibold items-center ">
+        <img class="logo " src="images/logo2.png" alt="">
+        <li class="home "><a href="index.html">Home</a></li>
+        <li class="ealth-conditions  "><a href="">Health conditions</a></li>
+        <li class="Lab-tests  text-[#00a5ff] "><a href="">Lab tests</a></li>
+        <li class="medicines  "><a href="">Medicines</a></li>
+        <li class="for-patients-btn   "><button
+            class="px-5 py-2.5 text-sm font-medium text-center text-white bg-[#00486c] rounded-sm hover: ring-blue-300 focus:outline-none"><a
+              href="">For patients</a></button>
+        </li>
+        <li class="for-hospitals-btn  "><button
+            class=" px-5 py-2.5 text-sm font-medium text-center text-white bg-[#00486c] rounded-sm hover: ring-blue-300 focus:outline-none"><a
+              href="">For hospitals</a></button>
+        </li>
+        <button
+          class="play-store px-7 py-2.5 text-sm font-medium  text-white  rounded-sm hover: ring-blue-300 focus:outline-none bg-[#333333] space-x-6"><img
+            src="images/playstoreIcon.png" class="absolute font-" alt=""><a href=""> Play
+            store</a></button>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- form and Lab tests area -->
+  <main class="h-[85vh] w-full bg-no-repeat flex justify-start "
+    style="background-image: url(images/Rectangle\ 1.png);">
+    <div class="w-96 h-96 flex items-center rounded-2xl px-7 bg-white ml-20 m-auto">
+      <form class="w-full max-w-sm" action="" method="post">
+        <h1 class="text-center pb-7 font-semibold text-lg">Fill in the details to get a call!</h1>
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4 cursor-pointer"
+              for="inline-full-name">
+              <img src="images/formPersonicon.png" alt="">
+            </label>
+          </div>
+
+          <div class="md:w-[25vw]">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-slate-900 leading-tight focus:outline-none focus:bg-white "
+              id="inline-full-name" type="text" placeholder="Full name">
+          </div>
+        </div>
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 cursor-pointer" for="phone">
+              <img src="images/formCallicon.png" alt="">
+            </label>
+          </div>
+          <div class="md:w-[25vw]">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-slate-900 leading-tight focus:outline-none focus:bg-white "
+              type="tel" placeholder="Phone number" id="phone">
+          </div>
+        </div>
+        <div class="md:flex md:items-center mb-6">
+          <div class="md:w-1/3">
+            <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0" for="location">
+              <img src="images/formLocationicon.png" alt="">
+            </label>
+          </div>
+          <div class="md:w-[25vw]">
+            <input
+              class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-slate-900 leading-tight focus:outline-none focus:bg-white "
+              type="text" placeholder="Location" id="location">
+          </div>
+        </div>
+        <div class=" mb-6 text-center">
+          <div class="md:w-1/3"></div>
+          <label class="md:w-2/3  text-[#333333] font-bold">
+            <input class="leading-tight w-5 h-5" type="checkbox" checked>
+            <span class="font-medium text-xs">
+              By continuing, you agree to our T&C and privacy policy
+            </span>
+          </label>
+        </div>
+        <div class="space-x-16">
+          <div class="md:w-1/3"></div>
+          <div class="md:w-2/3">
+            <button
+              class="shadow bg-[#00a5ff] focus:shadow-outline focus:outline-none text-white font-bold py-2 px-16 rounded"
+              type="button">
+              Proceed
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- end -->
+
+
+    <!-- aside section -->
+    <aside class=" ">
+      <h1 class="font-semibold text-[45px] flex text-center mr-14 "><span class="text-[#00a5ff] ">Best in
+          class
+          <img class="w-80 block " src="images/lineRandom.png" alt=""></span> lab tests!</h1>
+
+      <!-- Aside scientist img section -->
+      <section class="mt-2">
+        <div
+          class="upper-card bg-opacity-20 bg-blur-lg backdrop-blur-lg  rounded-2xl shadow-lg px-5 py-7 flex items-center z-10 text-xs  space-x-5 text-[#333333] font-semibold bg-[#00486c] w-52 absolute mt-10 -mx-4 ">
+          <img src="images/aside_img1.png" class="w-12" alt="">
+          <p class="">Timely sample <br>collection</p>
+        </div>
+        <img src="images/Component 1.png" class="absolute " alt="">
+        <div
+          class="middle-card bg-opacity-20 bg-blur-lg backdrop-blur-lg  rounded-2xl shadow-lg px-5 py-7 flex items-center z-10 text-xs  space-x-14 text-[#333333] font-semibold bg-[#00486c] w-52 absolute mt-44  -mx-28">
+          <img src="images/Ellipse 2.png" class="absolute w-12" alt="">
+          <p class="">Complementary report consultation</p>
+        </div>
+
+        <div
+          class="middle-card bg-opacity-20 bg-blur-lg backdrop-blur-lg  rounded-2xl shadow-lg px-5 py-7 flex items-center z-10 text-xs  space-x-14 text-[#333333] font-semibold bg-[#00486c] w-52 absolute mt-72  -mx-5">
+          <img src="images/Ellipse 3.png" class="absolute w-12 " alt="">
+          <p class="">Accurate timely reports</p>
+        </div>
+      </section>
+    </aside>
+    <!-- end -->
+
+    <!-- Discount section -->
+    <section class="absolute bottom-8 left-16">
+      <div
+        class="shadow w-[30vw] relative bg-[#00486c] focus:shadow-outline z-20 focus:outline-none text-white font-semibold  py-8 px-20 rounded-full">
+        <h1 class="text-center absolute bottom-4 right-9 text-lg">Get a Full Body Checkup Now at <span
+            class="line-through  ">₹5,999</span>
+          ₹999
+        </h1>
+      </div>
+      <div
+        class="shadow w-[5vw] absolute z-10 bg-[#00a5ff] focus:shadow-outline focus:outline-none text-white font-semibold py-8 px-20 -right-28 bottom-0 rounded-full">
+        <h1 class="absolute bottom-5 right-6 text-xl ">70% OFF</h1>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- NABL Labs img section -->
+
+  <section class="my-16 flex justify-evenly items-center">
+    <div class="flex justify-center items-center ">
+      <img src="images/NABLImg.png" alt="">
+      <h1 class="text-[24px]  font-semibold ">NABL Accredited Labs</h1>
+    </div>
+
+    <div class="flex justify-center items-center ">
+      <img src="images/free_sample_img.png" alt="">
+      <h1 class="text-[24px]  font-semibold  ">Free sample collection</h1>
+    </div>
+
+  </section>
+  <!-- end -->
+
+  <!-- We keep expanding section -->
+
+  <section class="we-keep-expanding-section ">
+
+    <h1 class="font-semibold text-[50px]  text-center mr-14  ">We keep<span class="text-[#00a5ff] "> expanding
+        <blockquote class="inline text-[#333333]">!</blockquote>
+        <img class="w-64 mx-[45vw] " src="images/lineRandom.png" alt="">
+      </span></h1>
+    <figure class="flex justify-evenly  text-center items-center  text-lg py-24">
+      <div class="shadow w-[10vw] h-[9vh]  z-10 bg-[#00a5ff]  text-white font-semibold py-2  rounded-xl">
+        <h1 class="text-white text-lg  font-extrabold"> 5+ <span class="block font-semibold">Labs</span></h1>
+      </div>
+      <div class="shadow w-[10vw] h-[9vh]  z-10 bg-[#00a5ff]  text-white  py-2  rounded-xl">
+        <h1 class="text-white text-lg font-extrabold">100+ <span class="block font-semibold">Collection centers</span>
+        </h1>
+      </div>
+      </div>
+      <div class="shadow w-[10vw] h-[9vh]  z-10 bg-[#00a5ff]  text-white  py-2  rounded-xl">
+        <h1 class="text-white text-lg font-extrabold">1000+<span class="block font-semibold">Monthly tests</span></h1>
+      </div>
+      </div>
+      <div class="shadow w-[10vw] h-[9vh]  z-10 bg-[#00a5ff]  text-white  py-2  rounded-xl">
+        <h1 class="text-white text-lg font-extrabold">2200<span class="block font-semibold">Test menu</span></h1>
+      </div>
+      </div>
+      <div class="shadow w-[10vw] h-[9vh]  z-10 bg-[#00a5ff]  text-white  py-2  rounded-xl">
+        <h1 class="text-white text-lg font-extrabold">5+<span class="block font-semibold">Cities present in</span></h1>
+      </div>
+      </div>
+    </figure>
+  </section>
+
+  <!-- end -->
+
+  <!-- Top packages section -->
+  <section class="Top-packages-section">
+    <h1 class="font-semibold text-[50px]  text-center mr-14  ">Top<span class="text-[#00a5ff] "> packages
+        <figcaption>
+          <img class="w-64 mx-[45vw] " src="images/lineRandom.png" alt="">
+        </figcaption>
+      </span></h1>
+
+    <summary class="text-center text-[#6E6E6E;] text-2xl  font-[Montserrat] py-10">
+      <p>Explore our wide range of tests! We ensure that you don’t miss out on any <span class="block">chance to keep
+          yourself healthy.</span></p>
+    </summary>
+  </section>
+
+  <!-- Top packages review rating cards section -->
+  <section class="Top-packages-review-rating-cards-section flex justify-evenly   ">
+    <!-- card-1 -->
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  z-20">
+      <div class="p-10 w-96 card-1-data-section flex justify-start items-start flex-col">
+        <a href="#">
+          <h5 class="mb-2 text-3xl font-bold tracking-tight text-slate-800  dark:text-white">Basic Full Body <br>
+            Checkup
+          </h5>
+        </a>
+
+        <h1 class="text-center text-lg mb-3 font-[Montserrat] flex justify-start items-center leading-10  ">
+
+          <span class="rating-card-1   text-slate-900 font-semibold">4.3</span>
+          <figure class="rating-star-img"><img src="images/star.png" alt=""></figure>
+          <span class=" reviews-card-1 text-gray-400">( 75 reviews )</span>
+
+        </h1>
+        <h1 class="text-center Number-of-tests-card-1 text-xl font-semibold mb-3 font-[Montserrat]  text-slate-900  ">
+          Number of tests - <span class="no-of-tests-value">53</span>
+        </h1>
+
+        <h1 class="text-center text-lg mb-3 font-[Montserrat]  text-gray-400  ">
+          MRP:
+          <span class="line-through  ">₹10,000</span>
+          <span class="text-slate-900">₹8,490</span>
+
+        </h1>
+
+        <a href="#"
+          class="flex items-center justify-center w-64 m-auto px-4 py-3 text-sm font-[Montserrat] text-center text-white bg-[#00a5ff] rounded">
+          Book Now
+        </a>
+      </div>
+    </div>
+    <!-- card-2 -->
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 z-20">
+      <div class="p-10 w-96 card-2-data-section flex justify-start items-start flex-col">
+        <a href="#">
+          <h5 class="mb-2 text-3xl font-bold tracking-tight text-slate-800  dark:text-white">Advance Full Body
+            <br>
+            Checkup
+          </h5>
+        </a>
+
+        <h1 class="text-center text-lg mb-3 font-[Montserrat] flex justify-start items-center leading-10  ">
+
+          <span class="rating-card-2   text-slate-900 font-semibold">4.7</span>
+          <figure class="rating-star-img"><img src="images/star.png" alt=""></figure>
+          <span class=" reviews-card-2 text-gray-400">( 100 reviews )</span>
+
+        </h1>
+        <h1 class="text-center Number-of-tests-card-2 text-xl font-semibold mb-3 font-[Montserrat]  text-slate-900  ">
+          Number of tests - <span class="no-of-tests-value">70</span>
+        </h1>
+
+        <h1 class="text-center text-lg mb-3 font-[Montserrat]  text-gray-400  ">
+          MRP:
+          <span class="line-through  ">₹12,000</span>
+          <span class="text-slate-900">₹10,000</span>
+
+        </h1>
+
+        <a href="#"
+          class="flex items-center justify-center w-64 m-auto px-4 py-3 text-sm font-[Montserrat] text-center text-white bg-[#00a5ff] rounded">
+          Book Now
+        </a>
+      </div>
+    </div>
+
+    <!-- card-3 -->
+    <div
+      class="max-w-sm bg-white border relative border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 z-20">
+      <div class="p-10 w-96 card-3-data-section flex justify-start items-start flex-col">
+        <a href="#">
+          <h5 class="mb-2 text-3xl font-bold tracking-tight text-slate-800  dark:text-white">Liver Function Test <br>
+            (LFT)
+          </h5>
+        </a>
+
+        <h1 class="text-center text-lg mb-3 font-[Montserrat] flex justify-start items-center leading-10  ">
+
+          <span class="rating-card-3   text-slate-900 font-semibold">4.3</span>
+          <figure class="rating-star-img"><img src="images/star.png" alt=""></figure>
+          <span class=" reviews-card-3 text-gray-400">( 43 reviews )</span>
+
+        </h1>
+        <h1 class="text-center Number-of-tests-card-3 text-xl font-semibold mb-3 font-[Montserrat]  text-slate-900  ">
+          Number of tests - <span class="no-of-tests-value">89</span>
+        </h1>
+
+        <h1 class="text-center text-lg mb-3 font-[Montserrat]  text-gray-400  ">
+          MRP:
+          <span class="line-through  ">₹13,299</span>
+          <span class="text-slate-900">₹11,299</span>
+
+        </h1>
+        <div class="absolute top-36 -right-20">
+          <img src="images/arrow.png" class="z-20" alt="">
+        </div>
+        <a href="#"
+          class="flex items-center justify-center w-64 m-auto px-4 py-3 text-sm font-[Montserrat] text-center text-white bg-[#00a5ff] rounded">
+          Book Now
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <!-- end -->
+  <!-- Why choose us section -->
+  <section class="Why-choose-us-section z-30 absolute pt-96">
+    <h1 class="font-semibold text-[50px]  text-center mr-14  ">Why <span class="text-[#00a5ff] ">choose</span> us?</h1>
+
+    <img class="w-[13vw]  mx-[45vw]  " src="images/lineRandom.png" alt="">
+    <!-- <p class="font-semibold text-[50px] text-center mr-14"> us?</h1>> -->
+    </h1>
+
+    <summary class="text-center text-[#6E6E6E;] text-2xl  font-[Montserrat] py-5">
+      <p>Explore our wide range of tests! We ensure that you don’t miss out on any <span class="block">chance to keep
+          yourself healthy.</span></p>
+    </summary>
+
+    <!-- card-1 -->
+    <summary class="flex pt-[10vh]  ">
+      <img src="images/NABLImg.png" class="absolute z-10 left-[18vw] bottom-[55vh] w-20" alt="">
+      <div class="w-60 left-first-card h-40 px-3 rounded-2xl  bg-white ml-20 mt-3 ">
+        <h1 class="font-[Montserrat] text-xl text-black font-semibold pt-6">NABL<br> Labs</h1><br>
+        <p class="text-xs font-[Montserrat]  ">Get accurate and safe results <br> from our NABL-certified lab <br>
+          partners.</p>
+      </div>
+      <img src="images/man-doctor.png" class="absolute z-10 left-[38vw] bottom-[48vh] w-20" alt="">
+
+
+      <div class="w-60 right-first-card h-40 px-3 rounded-2xl  bg-white ml-20 mt-16 ">
+        <h1 class="font-[Montserrat] text-xl text-black font-semibold pt-3">Value <br> experience</h1><br>
+        <p class="text-xs font-[Montserrat]  ">Experience seamless care without the hassle of waiting in long lines
+          for
+          an appointment. Book with us for a
+          healthier lifestyle.</p>
+      </div>
+    </summary>
+
+    <article class="flex ">
+      <img src="images/female-doctor-small-img.png" class="absolute z-10 left-[16vw] bottom-[23vh] w-20" alt="">
+      <div class="w-60 left-first-card h-40 px-3 rounded-2xl  bg-white ml-20 mt-3 ">
+        <h1 class="font-[Montserrat] text-xl text-black font-semibold pt-6">Timely<br> collections</h1><br>
+        <p class="text-xs font-[Montserrat]  ">We collect samples timely to prevent treatment delays and ensure your
+          continued well-being.</p>
+      </div>
+
+      <img src="images/man-last-doctor-card.png" class="absolute z-10 left-[38vw] bottom-[15vh] w-20" alt="">
+      <div class="w-60 right-last-card h-40 px-3 rounded-2xl  bg-white ml-20 mt-16 ">
+        <h1 class="font-[Montserrat] text-xl text-black font-semibold pt-6">Transparency</h1><br>
+        <p class="text-xs font-[Montserrat]  ">Enjoy hassle free medical assistance with our transparent approach. We
+          prioritize transparency for your smooth
+          medical journey.
+      </div>
+    </article>
+
+
+
+    <img class="absolute right-40 top-[63vh]"
+      src="images/expressive-young-woman-posing-studio-removebg-preview-transformed 1.png" alt="">
+  </section>
+
+  <!-- end -->
+
+
+
+  <!-- Blue layer background svg -->
+  <figure class="  Blue-layer-background-svg  relative bottom-30 z-10 ">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1515" height="1220" viewBox="0 0 1515 1220" fill="none">
+      <path
+        d="M-38 99.1443L242.008 17.9024C333.134 -8.5368 430.469 -3.87164 518.649 31.1613L926.518 193.205C1020.85 230.684 1127.29 221.848 1214.16 169.327C1480.24 8.44727 1798.35 277.853 1683.49 566.795L1402.35 1274H-38V99.1443Z"
+        fill="#00A6FF" fill-opacity="0.09" />
+    </svg>
+  </figure>
+  <!-- end -->
+
+  <footer class="text-gray-600 body-font  bg-[#1f1f1f] font-[Montserrat]">
+    <div
+      class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900  ">
+          <img src="images/NIL_logo_Transparent (1) 1.png" alt="">
+
+        </a>
+        <p class="mt-2 text-sm  text-white">Book doctor appointments online and get your ailments
+          treated
+          in no time
+          with our expert medical support systems. Get
+          rid of all your medical problem with our expert <br> panel of doctors who guide you towards a healthier life.
+        </p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4 font-[Montserrat]">
+          <h2 class="title-font  text-white tracking-widest text-2xl  mb-3  font-semibold">Services</h2><br>
+          <nav class="list-none mb-10 space-y-7">
+            <li>
+              <a class="text-white" href="#">Appointments</a>
+            </li>
+            <li>
+              <a class="text-white" href="#">Lab tests</a>
+            </li>
+            <li>
+              <a class="text-white" href="#">A-Z medicine</a>
+            </li>
+            <li>
+              <a class="text-white" href="#">Doctor support</a>
+            </li>
+          </nav>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4 font-[Montserrat]">
+            <h2 class="title-font text-white tracking-widest text-2xl  mb-3 font-semibold">Legal</h2><br>
+            <nav class="list-none mb-10 space-y-7">
+              <li>
+                <a class="text-white" href="#">General info</a>
+              </li>
+              <li>
+                <a class="text-white" href="#">Privacy policy</a>
+              </li>
+              <li>
+                <a class="text-white" href="#">Terms of services</a>
+              </li>
+              <li>
+                <a class="text-white" href="#">Consultation</a>
+              </li>
+              <li>
+                <a class="text-white" href="#">How it works</a>
+              </li>
+            </nav>
+          </div>
+          <div class="flex-grow  flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left ">
+            <div class="lg:w-1/4 md:w-1/2 w-fit px-5 font-[Montserrat]">
+              <h2 class="title-font  text-white  text-2xl  mb-3 font-semibold">Talk to us</h2><br>
+              <nav class="list-none  space-y-5">
+                <li>
+                  <a class="text-white" href="#">support@notinline.com</a>
+                </li>
+                <li>
+                  <a class="text-white" href="#">appointment@notinline.com</a>
+                </li>
+                <li>
+                  <a class="text-white  " href="#">+91 12345 67899</a>
+                </li>
+                <li>
+                  <a class="text-white " href="#">+91 97642 09752</a>
+                </li>
+              </nav>
+            </div>
+
+
+            </span>
+          </div>
+        </div>
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
